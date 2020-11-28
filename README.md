@@ -23,8 +23,7 @@
 - git / Github
 - Next.js
 - Go
-- gRPC
 - docker / コンテナ仮想化の実践
 - TDD
 - DDD / Clean Architecture
-
+- REST API / gRPC
