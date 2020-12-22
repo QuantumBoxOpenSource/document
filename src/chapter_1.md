@@ -26,6 +26,24 @@ ReactをよりWebサイト用に特化させたフレームワーク
 複数人で開発しているときにはGitを使用して進めた進捗をアップロードして共有ができる。  
 実際この章で必要なツールではないが、Gitとの組み合わせで徐々に慣れるために少しずつ使用していく。  
 
+## Process
+### Next.jsを始める
+[Nextjsのチュートリアル](https://nextjs.org/learn/basics/create-nextjs-app)に従ってNextjsの仕組みや扱い方を学ぶ。  
+
+Node.jsがバージョン10.13以降のものがインストールされていればそれ以外に必要なものはありません。  
+実際に叩くコマンドは`npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"`です。  
+このコマンドを打つとサンプルとして用意されているnextjsのプロジェクトを簡単に立ち上げることが可能です。  
+
+これを分解して解説します。  
+まずは`npx create-next-app`
+npxは引数として与えられたコマンドを以下の順番で探して実行します  
+1. ローカルパッケージ（node_modules/.bin）
+2. 環境変数PATH
+3. npmレジストリ
+つまり今回は引数として与えられた`create-next-app`を探して実行するわけなので、create-next-appがあなたのパソコンにインストールされていなくても[npmのレジストリ](https://www.npmjs.com/package/create-next-app)にあるので実行してくれます。  
+
+つまり実質的に実行されるコマンドは`create-next-app`ということになります。
+[create-next-appの詳しい説明](https://nextjs.org/docs/api-reference/create-next-app)を読むと、先程実行したコマンドではいくつかのオプションを与えていることがわかります。
 
 
 ## 第1章のまとめ
